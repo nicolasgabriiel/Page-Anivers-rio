@@ -11,6 +11,11 @@
     &--primary {
         color: #fff;
         background-color: variables.$purple;
+        transition: background-color .3s ease;
+        &:hover{
+            background-color: lighten(variables.$purple, 5%);
+            transition: background-color .3s ease;
+        }
     }
 
     @media (max-width: 640px) {
